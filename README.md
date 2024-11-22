@@ -37,6 +37,7 @@ O objetivo deste projeto é criar um aplicativo de gamificação que utiliza int
 
 - Crie um projeto privado no Azure DevOps.
 - Importe o repositório do GitHub para o repositório do Azure DevOps.
+- No repositório importado, vá em `application.properties` e adicione ao codigo a `api key`
 
 ## 2. Criação da Pipeline
 
