@@ -47,7 +47,7 @@ O objetivo deste projeto é criar um aplicativo de gamificação que utiliza int
 2. Configurações da Pipeline:
    - Escolha um nome para a pipeline.
    - Defina **Windows-latest** como especificação do agente (Agent Specification).
-   - Indique o caminho para o arquivo `pom.xml` na pasta **jannosa**.
+   - Indique o caminho para o arquivo `pom.xml` na pasta do projeto
    
 3. Configurações de Build:
    - Selecione a versão `4.*` na **task version**.
