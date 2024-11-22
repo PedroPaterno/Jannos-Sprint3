@@ -14,21 +14,7 @@ O objetivo deste projeto é criar um aplicativo de gamificação que utiliza int
 - Luis Augusto de Petta Didonato RM99433 - 2TDSPH
 - Pedro Antunes Ferreira RM551409 - 2TDSPH
 - Pedro Henrique Nobrega de Castro Paterno RM99726 - 2TDSPH
-
-***
-
-**Instruções para rodar a aplicação:**
-
-Para rodas a aplicação entre na IDE eclipse e baixe através do marketplace o Spring Tools 4. 
-Após a instalação abra o boot dashboard, e com o mouse em cima do projeto, aperte o botao direito e (Re)start. 
-Agora é so acessar seu navegador e acessar os endpoints.
-
-***
-
-**Link do vídeo pitch:**
-
     
-
 ***
 
 **Listagem de endpoints:**
