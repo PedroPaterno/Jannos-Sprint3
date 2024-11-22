@@ -1,18 +1,10 @@
-*Go&GetIt*
+*EcoSave*
 -
 ***
 
 **Nosso objetivo:**
 
-O objetivo deste projeto é criar um aplicativo que utiliza da inteligência artificial 
-para conectar consumidores a lojas locais oferecendo preços competitivos. Por meio de algoritmos avançados, 
-o app personaliza a experiência de compra, exibindo lojas próximas com ofertas atraentes baseadas no 
-de pessoas na região. Utilizando o GPS, o aplicativo garante que os consumidores recebam informações 
-atualizadas sobre preços e disponibilidade de produtos, incentivando a compra presencial e promovendo o 
-crescimento do comércio local. Além disso, o aplicativo fornece às lojas parceiras dados valiosos sobre o 
-comportamento dos consumidores, ajudando-as a otimizar suas estratégias de marketing e gestão de estoque, 
-resultando em ótima ferramenta para impulsionar vendas e melhorar a experiência de compra, além de incentivar 
-as empresas a realizarem um preço marginal para seus produtos, maximizando a margem de lucro.
+O objetivo deste projeto é criar um aplicativo de gamificação que utiliza inteligência artificial para monitorar e otimizar o consumo de energia dos usuários. Por meio de um sistema interativo de pontos e recompensas, o aplicativo incentiva práticas sustentáveis, ajudando os consumidores a reduzirem seus gastos energéticos e contribuírem para a preservação do meio ambiente. Além de promover economia doméstica, o app oferece dicas personalizadas baseadas nos hábitos de consumo de cada usuário, possibilitando ajustes eficientes e conscientes. Com relatórios detalhados sobre padrões de uso, o aplicativo se torna uma ferramenta essencial para transformar o consumo de energia em uma experiência responsável e engajante.
 
 ***
 
