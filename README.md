@@ -38,6 +38,47 @@ O objetivo deste projeto é criar um aplicativo de gamificação que utiliza int
 
 ***
 
+# Configuração de Pipeline - YAML
+
+Este é um exemplo de configuração de pipeline para uma aplicação Java utilizando Maven. O arquivo abaixo deve ser salvo com a extensão `.yaml` e utilizado em sua ferramenta de CI/CD.
+
+## Código do Pipeline
+
+```yaml
+trigger:
+- main
+
+pool:
+  vmImage: 'windows-latest'
+
+steps:
+# Configuração do Maven Build
+- task: Maven@3
+  inputs:
+    mavenPomFile: 'ecosave/pom.xml' 
+    goals: 'package'
+    javaHomeOption: 'JDKVersion'
+    jdkVersionOption: '1.17'
+    mavenVersionOption: 'Default'
+    options: ''
+    publishJUnitResults: true
+    testResultsFiles: '**/surefire-reports/TEST-*.xml'
+
+# Copiar a aplicação (com configurações padrão)
+- task: CopyFiles@2
+  inputs:
+    SourceFolder: '$(System.DefaultWorkingDirectory)'
+    Contents: '**'
+    TargetFolder: '$(Build.ArtifactStagingDirectory)'
+
+# Publicar artefato do build
+- task: PublishBuildArtifacts@1
+  inputs:
+    pathToPublish: '$(Build.ArtifactStagingDirectory)'
+    artifactName: 'drop'
+    publishLocation: 'Container'
+```
+***
 ## 1. Criação do Projeto
 
 - Crie um projeto privado no Azure DevOps.
