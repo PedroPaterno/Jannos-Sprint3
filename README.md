@@ -31,7 +31,12 @@ O objetivo deste projeto é criar um aplicativo de gamificação que utiliza int
 * localhost/usuarios
 ***
 
+**Usuário para testes**
 
+- login: admin
+- senha: admin
+
+***
 
 ## 1. Criação do Projeto
 
