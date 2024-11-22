@@ -84,7 +84,7 @@ steps:
 - Crie um projeto privado no Azure DevOps.
 - Importe o repositório do GitHub para o repositório do Azure DevOps.
 - No repositório importado, vá `application.properties` e adicione ao codigo a api key em
-- Api key: `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`
+
 
 ## 2. Criação da Pipeline
 
