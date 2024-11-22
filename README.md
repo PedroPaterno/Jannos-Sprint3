@@ -40,11 +40,17 @@ Agora é so acessar seu navegador e acessar os endpoints.
 ***
 
 **Listagem de endpoints:**
+* localhost//comodos
+
+* localhost/consumos
+
+* localhost/dispositivos
+
 * localhost/enderecos
 
-- localhost/notas
+* localhost/pontos
 
-* localhost/produtos
+* localhost/usuarios
 ***
 
 
